@@ -106,9 +106,25 @@
         margin: 0 auto 30px;
       }
       
-      .btn {
+      #btn1 {
+        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
+      }
+      #btn2 {
+        .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
+      }
+      #btn3 {
         .button-creator(200px, 45px, @button-bg, @white, 1.8rem);     
       }
     }
   }
 }// home
+form {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  input, button {
+    margin: 5px;
+  }
+}
